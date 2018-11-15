@@ -1,0 +1,7 @@
+.task-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.task-list__create-task,.task-list__item-list {
+    margin-top: 8px;
+}

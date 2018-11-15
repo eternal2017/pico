@@ -1,0 +1,25 @@
+.create-task-form {
+    display: flex;
+    padding: 24px;
+}
+
+.create-task-form__text-field {
+    flex: 1 1 100%;
+    font-size: 20px;
+    background: #fcfcfc;
+    color: #b3b7c0;
+}
+.create-task-form__text-field input {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.create-task-form__submit-button {
+    flex: 0 0 150px;
+    font-size: 22px!important;
+    color: #c7c8ca!important;
+}
+.create-task-form__submit-button_margin {
+    margin-left: 20px!important;
+}

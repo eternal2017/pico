@@ -1,0 +1,32 @@
+.task {
+    display: flex!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08)!important;
+}
+.task:last-child {
+    border-bottom: none!important;
+}
+.task:hover .task__delete{
+    display: inline-block!important;
+}
+.task_completed .task__name {
+    text-decoration: line-through;
+}
+.task_completed .task__complete, .task_completed .task__name, .task_completed .task__delete {
+    color: #d2d1d2;
+}
+
+.task__complete {
+    flex: 0 1;
+}
+
+.task__name {
+    flex: 1 1 100%;
+    font-size: 20px;
+    color: #717273;
+}
+
+.task__delete {
+    flex: 0 1 24px;
+    color: #787476;
+    display: none!important;
+}
