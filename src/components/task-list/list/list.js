@@ -19,8 +19,8 @@ const ItemList = (props) => {
         <Card>
             <div className={classes.root}>
                 <List component="nav">
-                    {tasks.map((task, index) =>
-                        <Item key={index}
+                    {tasks.map((task) =>
+                        <Item key={task.id}
                               id={task.id}
                               name={task.name}
                               completed={task.completed}
